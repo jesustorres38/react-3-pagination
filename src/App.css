@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.loading--animate {
+  width: 40px;
+  animation: App-logo-spin infinite 2s linear;
+}
+
+.list {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.list__item {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: none;
+}
+
+.list__item:nth-child(odd) {
+  background-color: #efefef;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pagination {
+  list-style: none;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10px 0;
+  border: 1px solid #efefef;
+}
+
+.pagination li a{
+  text-decoration: none;
+  color: rgb(0, 159, 162);
+  
+}
+
